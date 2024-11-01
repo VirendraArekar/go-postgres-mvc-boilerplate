@@ -15,8 +15,8 @@ func InitRoutes() *mux.Router {
 	// Protected Routes with Authentication middleware
 	// r.Use(authMiddleware)
 	r.HandleFunc("/users", controllers.GetUsers).Methods("GET")
-	r.HandleFunc("/user", controllers.GetUsers).Methods("POST")
-	r.HandleFunc("/user/{id}", controllers.GetUser).Methods("GET")
+	r.HandleFunc("/users", controllers.GetUsers).Methods("POST")
+	r.HandleFunc("/users/{id}", controllers.GetUser).Methods("GET")
 	r.HandleFunc("/users/{id}", controllers.UpdateUser).Methods("PUT")
 	r.HandleFunc("/users/{id}", controllers.DeleteUser).Methods("DELETE")
 

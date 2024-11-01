@@ -56,6 +56,10 @@ This project demonstrates a web application built using GoLang, the Model-View-C
 
 ## Endpoints
 
+### Example auth routes:
+- `POST /register`: Register user.
+- `POST /login`: Login user.
+
 ### Example users CRUD routes:
 - `GET /users`: Fetch all users.
 - `POST /users`: Create a new user.
