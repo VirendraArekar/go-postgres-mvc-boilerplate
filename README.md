@@ -67,18 +67,6 @@ This project demonstrates a web application built using GoLang, the Model-View-C
 - `PUT /users/{id}`: Update an existing user by ID.
 - `DELETE /users/{id}`: Delete an user by ID.
 
-## Docker Support
-If you want to run the application in a Docker container:
-1. Build the Docker image:
-    ```bash
-    docker build -t golang-mvc-postgres .
-    ```
-
-2. Run the container:
-    ```bash
-    docker run -p 8080:8080 golang-mvc-postgres
-    ```
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -86,5 +74,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Contributions are welcome! Please submit a pull request or open an issue for any bugs or feature requests.
 
 ## Author
-**Your Name**  
+**Virendra Arekar**  
 Feel free to reach out at [virendra.arekar@gmail.com](mailto:virendra.arekar@gmail.com)
